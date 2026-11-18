@@ -1,14 +1,12 @@
 # 文档索引
 
-本目录放需要独立成篇、长期保留的文档，如学习笔记、设计说明、实验记录、操作指南。项目做什么见根目录 [README](../README.md)，术语见 [GLOSSARY](../GLOSSARY.md)；当前任务的步骤与验收写在 PLAN，不放这里。
+本目录放需要独立成篇、长期保留的文档，如案例、学习笔记、实验记录。仓库做什么见根目录 [README](../README.md)，术语见 [GLOSSARY](../GLOSSARY.md)；工具信息在 [tools/](../tools/README.md)，不放这里。
 
 ## 索引
 
 | 文档 | 用途 |
 |---|---|
-| （[文件名](文件名.md)） | （一句话说明） |
-
-（新增一篇就在这里补一行；子目录写一行指向它的 README 即可。完成填写后删除本提示和占位行。）
+| [01-mac-flash-microduck.md](01-mac-flash-microduck.md) | 案例：教程用 Windows 烧录软件时，在 Mac 上烧录 microduck 的 Radxa 镜像 |
 
 ## 写法
 
