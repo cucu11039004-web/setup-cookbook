@@ -26,4 +26,4 @@ macOS 工具较全，Windows 和 Linux 目前只有烧录类示例，深度学�
 
 ## English summary
 
-setup-cookbook is a community-maintained catalog of developer and everyday tools, organized by operating system (macOS, Windows, Linux). Each entry says what the tool is, which platforms it supports (🍎🪟🐧), its cost, and when it was last verified. It also collects short "recipes" (tool sets for a given need) and write-ups such as flashing OS images from a Mac when the tutorial assumes Windows. The content is mostly in Chinese for now; English pull requests and issues are welcome. If a tool breaks or a link dies, please open an issue or PR. Installation and configuration guides are out of scope for now.
+setup-cookbook is a community-maintained catalog of developer and everyday tools, organized by operating system (macOS, Windows, Linux). It also collects short "recipes" (tool sets for a given need) and write-ups such as flashing OS images from a Mac when the tutorial assumes Windows. The content is mostly in Chinese for now; English pull requests and issues are welcome. If a tool breaks or a link dies, please open an issue or PR. Installation and configuration guides are out of scope for now.
