@@ -1,0 +1,36 @@
+name: 推荐新工具
+description: 想让仓库收录某个工具
+title: "[新增] 工具名"
+labels: ["new-tool"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: 工具名称
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: 官网或官方仓库链接
+    validations:
+      required: true
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: 支持的系统
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+  - type: textarea
+    id: why
+    attributes:
+      label: 它解决什么问题、适合什么场景
+      description: 一两句话即可；如果它是某个工具在另一个系统上的替代品，请写明
+    validations:
+      required: true
+  - type: textarea
+    id: pitfalls
+    attributes:
+      label: 踩过的坑（可选）

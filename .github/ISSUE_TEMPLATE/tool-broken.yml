@@ -1,0 +1,36 @@
+name: 工具失效或信息过期
+description: 官网打不开、下载 404、不再支持某系统、改成收费等
+title: "[失效] 工具名：问题简述"
+labels: ["broken-tool"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: 工具名称
+      description: 与仓库里条目名称一致
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 哪一项不对
+      multiple: true
+      options:
+        - 官网或下载链接打不开
+        - 平台支持变了（新增或不再支持某系统）
+        - 费用或许可变了
+        - 工具已停更或下架
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 你看到的情况
+      description: 写明你在哪个系统、什么时候核对的，最好附上官网或官方仓库的链接
+    validations:
+      required: true
+  - type: textarea
+    id: alt
+    attributes:
+      label: 推荐的替代品（可选）
